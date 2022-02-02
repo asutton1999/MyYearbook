@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Yearbook</string>
+    <string name="angela_sutton">Angela Sutton</string>
+    <string name = "activities">Loves her dog </string>
+    <string name = "combined"> Angela Sutton          Loves her dog</string>
+    <string name = "imagedescription">A small brown and white dog smiling.</string>
+
 </resources>
