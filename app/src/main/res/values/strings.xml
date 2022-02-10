@@ -4,5 +4,6 @@
     <string name = "activities">Loves her dog </string>
     <string name = "combined"> Angela Sutton          Loves her dog</string>
     <string name = "imagedescription">A small brown and white dog smiling.</string>
+    <string name = "Change">Change Text.</string>
 
 </resources>
