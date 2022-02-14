@@ -2,6 +2,7 @@ package com.example.myyearbook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -14,10 +15,10 @@ public class MainActivity<i> extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
         public void onClick(View v) {
-            TextView mTextView = (TextView)findViewById(R.id.mytextView);
-            mTextView.setText("Freida is my dog's name");
+            Intent i = new Intent(getApplicationContext(),NextActivity.class);
+            startActivity(i);
 
-    };
+    }
 
 
 
