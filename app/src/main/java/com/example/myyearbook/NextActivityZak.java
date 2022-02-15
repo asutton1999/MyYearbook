@@ -14,7 +14,6 @@ public class NextActivityZak extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next_zak);
 
-
         Button btn;
 
         btn = (Button) findViewById(R.id.button3);
@@ -31,8 +30,6 @@ public class NextActivityZak extends AppCompatActivity {
 
 
     }
-
-
 
 
 }
