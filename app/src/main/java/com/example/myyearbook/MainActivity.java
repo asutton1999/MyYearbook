@@ -14,10 +14,12 @@ public class MainActivity<i> extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-        public void onClick(View v) {
-            Intent i = new Intent(getApplicationContext(),NextActivity.class);
-            startActivity(i);
 
+
+        public void onClick(View v) {
+            Intent i = new Intent(getApplicationContext(),ZakActivity.class);
+            startActivity(i);
+        //My Activty name is "ZakActivity"
     }
 
 
