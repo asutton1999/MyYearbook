@@ -29,16 +29,13 @@
         android:id="@+id/button3"
         android:layout_width="162dp"
         android:layout_height="78dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="209dp"
-        android:layout_marginEnd="220dp"
-        android:layout_marginBottom="100dp"
-        android:onClick="onClick"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="213dp"
         android:text="@string/next_person"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,14 +13,14 @@ public class NextActivityZak extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next_zak);
     }
-/*
+
     public void buttonClick(View v) {
         Intent i = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(i);
 
-        Om, this is where you need to connect your main/first page
+        /*Om, this is where you need to connect your main/first page*/
 
     }
-    */
+
 
 }
