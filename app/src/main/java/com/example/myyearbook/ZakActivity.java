@@ -21,13 +21,13 @@ public class ZakActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    /*
+
     public void buttonClick(View v) {
-        Intent i = new Intent(getApplicationContext(), MainActivity.class);
-        startActivity(i);
+        Intent in = new Intent(getApplicationContext(), MainActivity2OM.class);
+        startActivity(in);
     }
 
-    Link your main actvity here OM, just replace MainActvity.class with the name of your actvity
-*/
+   // Link your main actvity here OM, just replace MainActvity.class with the name of your actvity
+
 
 }
