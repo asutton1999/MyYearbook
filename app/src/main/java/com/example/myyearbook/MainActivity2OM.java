@@ -7,27 +7,30 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class NextActivityZak extends AppCompatActivity {
+public class MainActivity2OM extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_next_zak);
+        setContentView(R.layout.activity_main_activity2_om);
 
 
-        Button btn;
 
-        btn = (Button) findViewById(R.id.button3);
-        btn.setOnClickListener(new View.OnClickListener(){
+
+        Button btnn;
+
+        btnn = (Button) findViewById(R.id.button4);
+        btnn.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view){
-                Intent ii = new Intent (NextActivityZak.this,MainActivity2OM.class);
+                Intent ii = new Intent (MainActivity2OM.this,OmNextActivity.class);
                 startActivity(ii);
             }
 
 
         });
+
 
 
     }
