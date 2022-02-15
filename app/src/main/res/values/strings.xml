@@ -5,6 +5,8 @@
     <string name="combined"> Angela Sutton          Loves her dog</string>
     <string name="imagedescription">A small brown and white dog smiling.</string>
     <string name="Change">Change to Next Page.</string>
+    <string name = "Grad">My Graduation Plan</string>
+    <string name = "Steps"> 1. Improve and reformat my resume. 2. Apply to internships. 3. Make connections with people in my field.</string>
     <string name="title_activity_zak">ZakActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

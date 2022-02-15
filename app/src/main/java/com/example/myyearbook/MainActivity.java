@@ -17,7 +17,7 @@ public class MainActivity<i> extends AppCompatActivity {
 
 
         public void onClick(View v) {
-            Intent i = new Intent(getApplicationContext(),ZakActivity.class);
+            Intent i = new Intent(getApplicationContext(),NextActivity.class);
             startActivity(i);
         //My Activty name is "ZakActivity"
     }
