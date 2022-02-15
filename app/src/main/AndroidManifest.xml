@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyYearbook">
         <activity
+            android:name=".NextActivityZak"
+            android:exported="false" />
+        <activity
             android:name=".ZakActivity"
             android:exported="false" />
         <activity
