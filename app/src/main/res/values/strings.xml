@@ -4,7 +4,7 @@
     <string name="activities">Loves her dog </string>
     <string name="combined"> Angela Sutton          Loves her dog</string>
     <string name="imagedescription">A small brown and white dog smiling.</string>
-    <string name="Change">Change Page.</string>
+    <string name="Change">Change to next Page.</string>
     <string name="title_activity_zak">ZakActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
