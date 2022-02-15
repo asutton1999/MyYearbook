@@ -8,7 +8,16 @@
     <string name="Grad">My Graduation Plan</string>
     <string name="Steps"> 1. Improve and reformat my resume. 2. Apply to internships. 3. Make connections with people in my field.</string>
     <string name="title_activity_zak">ZakActivity</string>
+    <string name ="Welcome">Welcome!</string>
+    <string name ="Hi"> Hi! I am Om</string>
+    <string name ="Major"> I am a Computer Science student at SJCNY, Brooklyn.</string>
     <!-- Strings used for fragments for navigation -->
+    <string name ="Continue"> Continue </string>
+    <string name ="Plan"> My Plan for Summer 2022 </string>
+    <string name = "Step1">1. Work on my resume.</string>
+    <string name = "Step2">2. Extensive search for possible software engineering internship and apply to them.</string>
+    <string name = "Step3">3. Complete some valuable online programming courses from Coursera and Udemy.</string>
+    <string name = "returnS">  Continue to 1st page </string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
