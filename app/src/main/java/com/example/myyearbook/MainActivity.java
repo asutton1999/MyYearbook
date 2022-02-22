@@ -12,11 +12,14 @@ import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import android.webkit.WebView;
+import android.widget.TextView;
+
 import android.app.Notification;
 
 import java.util.Timer;
 import java.util.TimerTask;
-
 
 public class MainActivity<i> extends AppCompatActivity {
 
