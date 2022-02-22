@@ -33,4 +33,6 @@
     <string name="next_person2">Next Person</string>
     <string name="next_page">Next Page</string>
 
+    <string name ="channel"> Notify me </string>
+    <string name = "description"> Notification for dog </string>
 </resources>
