@@ -40,7 +40,7 @@ public class MainActivity<i> extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         String CHANNEL_ID = "MYCHANNEL";
         NotificationChannel notificationChannel = new NotificationChannel(CHANNEL_ID, "name", NotificationManager.IMPORTANCE_LOW);
-        PendingIntent pendingIntent = PendingIntent.getActivity(getApplicationContext(), 1, intent, 0);
+        PendingIntent pendingIntent = PendingIntent.getActivity(getApplicationContext(), 1, intent, PendingIntent.FLAG_IMMUTABLE );
         Notification notification = new Notification.Builder(getApplicationContext(), CHANNEL_ID)
                 .setContentText("Check it out")
                 .setContentTitle("Freida is so cute")
@@ -84,8 +84,7 @@ public class MainActivity<i> extends AppCompatActivity {
             }
         };
     }
-
-
+    @RequiresApi(api = Build.VERSION_CODES.O)
    public void onResume() {
 
         super.onResume();
