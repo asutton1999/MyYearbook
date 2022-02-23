@@ -34,6 +34,25 @@ public class OmNextActivity extends AppCompatActivity {
 
 
 
+        //Share button
+        Button sharebuttton = findViewById(R.id.button6);
+
+        sharebuttton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_TEXT, "This is preformatted message.");
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+
     }
 
 
