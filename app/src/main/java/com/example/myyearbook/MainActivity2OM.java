@@ -59,7 +59,7 @@ public class MainActivity2OM extends AppCompatActivity {
         BitmapDrawable drawable = (BitmapDrawable)ima.getDrawable();
         Bitmap bitmap = drawable.getBitmap();
         File f = new File(getExternalCacheDir() + "/" + getResources().getString(R.string.app_name) + ".png" );
-        Intent shareint;
+        Intent shareint = new Intent();
 
         try {
             FileOutputStream outputStream = new FileOutputStream(f);
@@ -68,7 +68,7 @@ public class MainActivity2OM extends AppCompatActivity {
             outputStream.flush();
             outputStream.close();
             shareint = new Intent(Intent.ACTION_SEND);
-            shareint.setType("imgae/*");
+            shareint.setType("image/*");
             shareint.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(f));
             shareint.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
